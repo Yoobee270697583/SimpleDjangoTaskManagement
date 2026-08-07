@@ -19,7 +19,7 @@ def task_list(request):
     # Simple search box on the list page, matches on title or
     # description so it is easy to find something without scrolling
     # through the whole list.
-    query = request.GET.get('q', '')
+    query = request.GET.get('q', '') 
     if query:
         tasks = tasks.filter(
             Q(title__icontains=query) | Q(description__icontains=query)

@@ -16,4 +16,4 @@ staticfiles/
 .idea/*
 venv/*
 venv37/*
-venv-old/*
+venv-old/*requirements-local.txt
