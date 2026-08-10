@@ -15,5 +15,11 @@ www/static/*
 staticfiles/
 .idea/*
 venv/*
+.venv/
 venv37/*
-venv-old/*requirements-local.txt
+venv-old/*
+requirements-local.txt
+
+db.sqlite3
+.env
+__pycache__/
