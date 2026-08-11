@@ -34,6 +34,7 @@ else:
     DEBUG = True
  
     SECRET_KEY = 'django-insecure-*6bhp))mj#u4fx*p4se28w#w0d!_bh(jcke$(y^*3&wnk58=tu'
+ 
     ALLOWED_HOSTS = []
 
 
@@ -134,7 +135,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Pacific/Auckland'
 
 USE_I18N = True
 
