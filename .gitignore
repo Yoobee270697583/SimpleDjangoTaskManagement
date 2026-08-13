@@ -23,3 +23,5 @@ requirements-local.txt
 db.sqlite3
 .env
 __pycache__/
+
+keys/
